@@ -55,15 +55,15 @@ const TabsLayout = () =>{
          }}
           />
         <Tabs.Screen
-         name="news"
+         name="english"
          options={{
-            title:'News',
+            title:'English',
             headerShown:false,
             tabBarIcon: ({ color, focused }) => (
                 <TabIcon
-                  icon={icons.feed}
+                  icon={icons.language}
                   color={color}
-                  name="News"
+                  name="English"
                   focused={focused}
                 />
               ),
